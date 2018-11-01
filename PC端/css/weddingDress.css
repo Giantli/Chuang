@@ -1,0 +1,255 @@
+/***********************婚纱定制************************************/
+
+.diy-pic{
+  margin-top:40px; 
+  width: 100%;
+  height: 640px;
+  background-image: url("../images/pic10.png");
+    background-size: center ;
+  background-size: cover;
+
+
+
+}
+
+.diy-type{
+
+  border:1px solid #f2f2f2;
+  margin-top: 30px;
+  padding-left: 105px;
+  background-image: url("../images/pic49.jpg");
+  background-position:center center ;
+  height: 115px;
+  padding-bottom: 115px;
+}
+
+.diy-type>div>span:first-child{
+
+  color: #C80000;
+  font-weight: bold;
+  margin-left: 20px;
+  
+}
+.diy-type>div{
+
+margin-top: 25px;
+margin-bottom: 20px;
+  
+}
+.diy-type>div>a{
+  line-height: 28px;
+margin-left: 15px;
+margin-right: 15px;
+text-decoration: none;
+color: #666666;
+  display:inline-block;
+  height:28px;
+  width:80px;
+  text-align: center;
+  border-radius: 4px;
+  
+}
+.diy-type>div>a.actived{
+  background-color: #C80000;
+  color:#FFFFFF;
+}
+
+.diy-content{
+
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.diy-content>div{
+
+  margin-bottom: 10px;
+  position: relative;
+  float: left;
+}
+
+
+.diy-content div a{
+
+text-decoration: none;
+
+
+}
+
+
+.diy-content>div img{
+
+width: 290px;
+height: 380px;
+
+}
+
+.diy-tip{
+
+  margin-top: 40px;
+  text-align: center;
+  font-size: 15px;
+  border-top: 1px solid #333333;
+  padding-top: 30px;
+
+}
+
+
+.diy-pageIdx>a{
+
+float: left;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+border:1px solid #ddd;
+margin-right: 10px;
+line-height: 30px;
+text-align: center;
+background-color: #f7f7f7;;
+color: #333;
+  text-decoration: none;
+
+
+
+
+}
+
+
+
+.diy-pageIdx{
+
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: 30px;
+
+}
+
+.diy-pageIdx>a:hover{
+background-color: #ffffff;
+color: #333333;
+
+}
+
+
+.diy-pageIdx>a.actived{
+background-color: #ffffff;
+color: #333333;
+border:1px solid #e4393c;
+
+}
+
+
+
+
+
+
+
+
+.imgTitle{
+
+height: 380px;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+   line-height: 380px;
+ text-align: center;
+ color: #ffffff;
+ font-size: 20px;
+ font-weight: bolder;
+
+}
+
+.imgTitle:hover{
+ opacity: 1;
+ transition: 2s all;
+
+
+}
+
+.icon1{
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+  background-image: url("../images/pic06.png");
+  background-repeat: no-repeat;
+}
+
+.icon2{
+  position: absolute;
+  bottom: 60px;
+  width: 140px;
+  left: 70px;
+  height: 100px;
+  overflow: hidden;
+  text-align: center;
+  background-image: url("../images/pic07.png");
+  background-repeat: no-repeat;
+}
+
+.picTitle{
+
+
+color: #000;
+height: 70px;
+font-weight: bolder;;
+  background-image: url("../images/pic15.png");
+position: relative;
+
+
+  background-position: bottom left; 
+
+
+}
+
+
+.picCover{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+
+background-color: rgba(255,255,255,0.4);
+
+}
+
+
+
+.picTitle>div:first-child{
+
+
+text-align: center;
+margin-top: -3px;
+font-size: 16px;
+line-height: 40px;
+
+
+
+}
+
+.picTitle>div:nth-child(2){
+
+  font-size: 20px;
+
+text-align: right;
+padding-right: 10px;
+
+line-height: 20px;
+
+
+}
+
+.picTitle:hover{
+
+color: #C80000;
+
+}

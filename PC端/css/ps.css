@@ -1,0 +1,135 @@
+/************************page-body*****************************************/
+.page-body{
+  width:80%;
+  margin:auto; 
+  margin-top:29px;
+  color:black;
+  overflow: hidden;
+
+}
+.ps-title{
+	text-align: center;
+	color:grey;
+	font-style:oblique;
+
+} 
+/***********************轮播部分******************************/
+.slideshow {
+	  position: relative;
+	  z-index: 1;
+	  height: 600px;
+	  width: 100%;
+	  top:10px;
+	  bottom:500px;
+	}
+.slideshow * {
+	  outline: none;
+	}
+.slideshow .slider {
+	  box-shadow: 0 20px 50px -25px black;
+	}
+.slideshow .slider-track {
+	  -webkit-transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+	  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+	}
+.slideshow .item {
+	  height:600px;
+	  position: relative;
+	  z-index: 1;
+	}
+.slideshow .item img {
+	  width: 100%;
+	  height:600px;
+	  -webkit-transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+	  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+	  -webkit-transform: scale(1.2);
+	          transform: scale(1.2);
+	}
+.slideshow .item.slick-active img {
+	  -webkit-transform: scale(1);
+	          transform: scale(1);
+	}
+/********************ps-body************************************************************/
+.ps-body{
+	width:70%;
+	margin:100px auto;
+	overflow: hidden;
+}
+/********************ps-nav************************/
+.ps-nav{
+	/*position: fixed;*/
+	top:0;
+	right:22%;
+	width:200px;
+	float:right;
+	/*background-color: yellow;*/
+}
+.ps-nav>div{
+	text-align: center;
+	font-weight: bold;
+	margin-top:40px;
+}
+.ps-navtitle1{
+    font-size:20px;
+
+}
+.ps-navtitle2{
+    font-size:10px;
+
+}
+
+.ps-nav ul{
+	padding: 0; 
+	line-height: 30px;
+	list-style: none;
+}
+.ps-nav ul li{
+	width:100px;
+	height:40px;
+	margin: auto;
+	margin-top:10px; 
+	text-align: center;
+	border-radius:10px;
+	border: 1px solid rgba(0,0,0,0.1);
+	font-size:16px;
+}
+.ps-nav ul li a{
+	display:block;
+	width:100px;
+	height:40px;
+	margin: auto;
+	line-height: 40px;
+	text-align: center;
+	border-radius:10px;
+	color:grey;
+	font-weight: bold;
+	text-decoration: none;
+}
+ .ps-nav ul li a:hover{
+ 	color:white;
+ 	background-color:#F44336;
+ }
+
+/********************ps-main************************/
+.ps-main{
+	width:70%;
+	min-height: 600px;
+    float:left;
+    background-color:white;
+   /* border: 1px solid #ccc;*/
+}
+.ps-main img{
+	width:100%;
+    min-height:380px;
+    height: auto;
+    margin-top: 40px;
+}
+.ps-page{
+	width:70%;
+	margin:auto;
+	font-weight: bold;
+}
+.ps-page a:hover{
+    color:white;
+    background-color:#F44336; 
+}

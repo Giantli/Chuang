@@ -1,0 +1,130 @@
+.poster{
+
+	background-image: url(../images/pic30.png);
+	height: 250px;
+	background-position:bottom center;
+	margin-top: 40px;
+}
+
+.service{
+	text-align: center;
+	margin-top: 100px;
+	position: relative;
+
+
+}
+.lover{
+	position: absolute;
+	top: 235px;
+	left: 475px;
+}
+
+.service h1{
+	color: #333333;
+}
+
+.service i{
+	color: #FFC002;
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+
+.service span{
+	font-size:20px;
+	font-weight: bolder;
+	margin-left: 20px;
+
+}
+
+.service>div>div{
+	width: 300px;
+	line-height: 30px;
+	margin-top: 20px;
+}
+
+.A{
+	position: absolute;
+	top: 120px;
+	left: 200px;
+	text-align: left;
+
+}
+.B{
+	position: absolute;
+	top: 500px;
+	left: 200px;
+	text-align: left;
+}
+.C{
+	position: absolute;
+	top: 120px;
+	left: 800px;
+	text-align: left;
+}
+.D{
+	position: absolute;
+	top: 500px;
+	left: 800px;
+	text-align: left;
+}
+
+.brand{
+	margin-left: 40px;
+	position: relative;
+	margin-bottom: 80px;
+
+}
+
+.brandTitle>div{
+	text-align: center;
+}
+
+.brandTitle h1{
+	font-size: 30px;
+	color: #FFC002;
+	margin-bottom: 10px;
+}
+
+.brandTitle h2{
+	color: #86680F;
+	margin-bottom: 40px;
+}
+
+
+.brandTitle{
+	margin-top: 60px;
+}
+
+.plus{
+	margin-left: 10px;
+}
+
+.characters{
+	position: absolute;
+	right: 70px;
+	top: 130px;
+}
+
+.characters p{
+	display: inline-block;
+	width: 400px;
+	line-height: 30px;
+}
+
+.characters div{
+	margin-bottom: 43px;
+}
+
+.characters h2{
+	margin-bottom: 10px;
+}
+
+.balloon{
+	width: 150px;
+	height: 180px;
+	position: absolute;
+	top: -20px;
+	right: 320px;
+	z-index: -1;
+}

@@ -1,0 +1,36 @@
+.title{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.introduce{
+    padding-left: 280px;
+    padding-top: 40px;
+    font-size: 15px;
+    color:#666;
+    text-indent: 32px;
+    width: 730px;
+    line-height: 25px;
+}
+.singleContent{
+    margin-top: 40px;
+}
+.singleContent>img{
+    margin: auto;
+    display:block;
+    width:720px;
+}
+.singleContent>p{
+    font-size: 15px;
+    color:#666;
+    padding-left: 280px;
+    margin-top: 5px;
+    width:730px;
+    text-indent: 32px;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.singleContent>img{
+    margin-bottom: 15px;
+}

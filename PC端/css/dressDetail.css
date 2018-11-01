@@ -1,0 +1,375 @@
+.dressInfo{
+
+height: 700px;
+/*background: pink;*/
+position: relative;
+margin-top: 80px;
+
+}
+
+
+.showDress{
+
+width: 390px;
+/*height: 480px;
+float: left;
+border:1px solid #333333;*/
+float: left;
+}
+
+
+
+.showImg{
+
+width: 390px;
+height: 480px;
+float: left;
+/*border:1px solid #333333;*/
+
+}
+
+
+.showImg img{
+
+width: 390px;
+height: 480px;
+/*float: left;
+border:1px solid #333333;*/
+
+}
+
+.dressIntroduce{
+
+width: 600px;
+/*height: 500px;*/
+float: left;
+/*border:1px solid #333333;*/
+margin-left: 50px;
+
+}
+
+.dressRecommod{
+
+width: 150px;
+height: 480px;
+float: left;
+/*border:1px solid #333333;*/
+/*background: #cccccc;*/
+
+margin-left: 90px;
+
+
+
+}
+
+
+.dressRecommod>div:first-child{
+
+line-height: 40px;
+font-size: 16px;
+font-weight: bolder;
+margin-top: 5px;
+
+}
+
+.hotDress{
+
+	position: relative;
+
+float: left;
+
+}
+
+.dressRecommod>div>div{
+
+	position: absolute;
+bottom: 2px;
+right: 0;
+left: 0;
+height: 40px;
+background-color: rgba(0,0,0,0.5);
+color: #ffffff;
+text-align: center;
+line-height: 40px;
+
+}
+
+.dressRecommod>div img{
+
+width: 150px;
+height: 200px;
+
+}
+
+/*.dressRecommod>div:nth-child(2) img{
+
+margin-right: 1px;
+
+}
+.dressRecommod>div:last-child img{
+
+width: 100%;
+height: 360px;
+
+}*/
+
+
+.littleImg{
+
+	float: left;
+
+	width: 390px;
+
+	height: 160px;
+/*	background-color: #f88000;*/
+	margin-top: 15px;
+
+}
+
+.littleImg div{
+
+	width: 120px;
+/*	border:1px solid #333333;*/
+	height: 160px;
+	float: left;
+	margin-right: 15px;
+	/*background-color: skyblue;*/
+
+}
+
+.littleImg div img{
+
+	width: 120px;
+/*	border:1px solid #333333;*/
+	height: 160px;
+	/*float: left;
+	margin-right: 15px;
+	background-color: skyblue;
+*/
+}
+
+.littleImg div:last-child{
+
+	margin-right: 0px;
+
+}
+
+#myCanvas{
+position: absolute;
+top: 0px;
+left: 400px;
+width: 400px;
+height: 480px;
+display: none;
+border:1px solid #d6d6d6;
+background-color: #ffffff;
+
+
+}
+
+.title{
+
+text-align: center;
+/*background-color: skyblue;*/
+line-height: 30px;
+font-size: 20px;
+font-weight: bolder;
+margin-top: 15px;
+
+}
+
+.price{
+
+	padding-left: 20px;
+	/*background-color: skyblue;*/
+	font-size: 24px;
+font-weight: bolder;
+margin-top: 20px;
+height: 40px;
+padding-bottom: 10px;
+border-bottom: 1px solid #cccccc;
+color: #f80000;
+
+}
+
+.price span{
+font-size: 16px;
+color: #333333;
+
+}
+
+
+form div{
+
+line-height: 40px;
+
+}
+
+form select{
+	padding-left: 5px;
+
+width: 90px;
+height: 30px;
+margin-top: 40px;
+border-radius: 3px;
+border: 1px solid #cccccc;
+
+}
+
+form input{
+		padding-left: 5px;
+width: 85px;
+height: 25px;
+border-radius: 3px;
+border: 1px solid #cccccc;
+margin-right: 5px;
+
+}
+
+form button{
+
+width: 160px;
+height: 45px;
+margin: 15px auto;
+/*margin-left: 150px;*/
+margin-top: 30px;
+background-color: #928C8B;
+border:none;
+color: #ffffff;
+outline-style:none;
+
+
+}
+
+form label{
+display: inline-block;
+
+width: 75px;
+
+text-align: left;
+/*padding-right: 10px;*/
+
+}
+
+.dressInfo p{
+line-height: 30px;
+
+}
+
+.tip>p:first-child{
+
+font-weight: bolder;
+line-height: 15px;
+font-size: 15px;
+
+}
+
+.tip{
+
+	margin-top: 20px;
+}
+
+.poster{
+
+	background-image: url("../images/pic23.png");
+	width: 100%;
+	height:200px;
+	/*margin-top: 20px;*/
+	margin-bottom: 20px;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+
+
+}
+
+.tag>div{
+
+background-color: #928C8B;
+color: #ffffff;
+width: 120px;
+height: 50px;
+font-size: 16px;
+
+text-align: center;
+line-height: 51px;
+
+
+}
+
+.tag{
+
+border-bottom: 1px solid #928C8B;
+margin-top: 20px;
+
+}
+
+table{
+width: 100%;
+line-height: 30px;
+margin-top: 20px;
+
+}
+
+.productDetail div{
+
+text-align: center;
+margin-top: 30px;
+}
+
+.productDetail div img{
+width: 800px;
+
+
+}
+
+.productDetail{
+
+	margin-top: 40px;
+	margin-bottom: 150px;
+
+}
+
+.msg{
+
+line-height: 40px;
+font-size: 15px;
+position: relative;
+margin-bottom: 50px;
+
+
+}
+
+
+#butterfly{
+	position: absolute;
+	left: 960px;
+	top: 12px;
+
+	width: 80px;
+	height: 80px;
+}
+
+#flower{
+width: 150px;
+	height: 150px;
+
+	position: absolute;
+	left: 220px;
+	top: -12px;
+	z-index: -1;
+
+}
+
+.success{
+	background-color: rgba(94,118,119,0.5);
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	left: 540px;
+	top: 300px;
+	display: none;
+	color: #ffffff;
+	line-height: 100px;
+	text-align: center;
+	font-size: 16px;
+}
